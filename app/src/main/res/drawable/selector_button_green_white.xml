@@ -1,0 +1,7 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/rounded_button_green_bg" android:state_enabled="true"></item>
+    <item android:drawable="@drawable/button_rounded_grey_border_filled_white" android:state_enabled="false"></item>
+
+
+</selector>

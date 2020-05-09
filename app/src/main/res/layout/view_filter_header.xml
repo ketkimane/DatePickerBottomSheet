@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/small_margin">
+
+
+    <TextView
+        style="@style/BoldTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/small_margin"
+        android:padding="@dimen/xsmall_padding"
+        android:text="Select month and year" />
+
+    <ImageView
+        android:id="@+id/iv_close"
+        style="@style/BoldTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_close_black_24dp"
+        android:layout_marginRight="@dimen/medium_margin" />
+
+
+</RelativeLayout>
